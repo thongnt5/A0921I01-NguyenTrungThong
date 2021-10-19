@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1: Viết chương trình nhập điểm của một sinh viên </title>
+</head>
+<body>
+    <script>
+        let diemLy;
+        let diemSinh;
+        let diemHoa;
+        let ly;
+        let hoa;
+        let sinh;
+        let dtb;
+        diemLy = prompt('Input diem Ly');
+        diemSinh = prompt('Input diem Sinh');
+        diemHoa = prompt('Input diem Hoa');
+        ly = parseFloat(diemLy);
+        hoa = parseFloat(diemHoa);
+        sinh = parseFloat(diemSinh);
+        dtb = (ly + hoa + sinh)/3;
+        document.write('Diem trung binh 3 mon la ' +dtb);
+
+
+    </script>
+</body>
+</html>
